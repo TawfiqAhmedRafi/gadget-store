@@ -19,7 +19,6 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       setUser(storedUser);
     }
   }, []);
-
   const login = (email: string, password: string): boolean => {
     const success = authLogin(email, password);
     if (success) {
@@ -32,7 +31,6 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     authLogout();
     setUser(null);
   };
-
   return (
     <AuthContext.Provider value={{ user, isAuthenticated: !!user, login, logout }}>
       {children}

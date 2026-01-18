@@ -5,7 +5,6 @@ interface GadgetContextType {
   gadgets: Gadget[];
   addGadget: (gadget: Omit<Gadget, 'id' | 'rating' | 'inStock'>) => void;
 }
-
 const GadgetContext = createContext<GadgetContextType | undefined>(undefined);
 
 export const GadgetProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
@@ -20,7 +19,6 @@ export const GadgetProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     };
     setGadgets(prev => [...prev, newGadget]);
   };
-
   return (
     <GadgetContext.Provider value={{ gadgets, addGadget }}>
       {children}
