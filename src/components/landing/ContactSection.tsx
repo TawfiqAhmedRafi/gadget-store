@@ -65,8 +65,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Call Us</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                <p className="text-muted-foreground">Mon-Fri 9AM-6PM EST</p>
+                <p className="text-muted-foreground">+880 123456789</p>
+                <p className="text-muted-foreground">Mon-Fri 9AM-6PM BST</p>
               </div>
             </div>
 
@@ -76,8 +76,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Visit Us</h3>
-                <p className="text-muted-foreground">123 Tech Street</p>
-                <p className="text-muted-foreground">Silicon Valley, CA 94043</p>
+                <p className="text-muted-foreground">Multiplan , Elephant Road</p>
+                <p className="text-muted-foreground">Dhaka Bangladesh</p>
               </div>
             </div>
           </motion.div>

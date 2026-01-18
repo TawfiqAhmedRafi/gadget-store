@@ -4,6 +4,7 @@ import { ShoppingBag, Twitter, Facebook, Instagram, Linkedin, Mail, Phone, MapPi
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+
   return (
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12">
