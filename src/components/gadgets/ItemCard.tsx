@@ -35,7 +35,6 @@ const ItemCard = ({ gadget, index = 0 }: ItemCardProps) => {
               <Badge className="bg-primary/90 backdrop-blur-sm">{gadget.category}</Badge>
             </div>
           </div>
-
           {/* Content */}
           <div className="p-5 space-y-3">
             <div className="flex items-start justify-between gap-2">
@@ -47,11 +46,9 @@ const ItemCard = ({ gadget, index = 0 }: ItemCardProps) => {
                 <span className="text-sm font-medium text-foreground">{gadget.rating}</span>
               </div>
             </div>
-            
             <p className="text-muted-foreground text-sm line-clamp-2">
               {gadget.description}
             </p>
-
             <div className="flex items-center justify-between pt-2">
               <span className="font-display font-bold text-2xl gradient-text">
                 ${gadget.price.toFixed(2)}
