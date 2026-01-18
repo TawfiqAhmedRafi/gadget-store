@@ -31,5 +31,4 @@ const FeaturedProducts = () => {
     </section>
   );
 };
-
 export default FeaturedProducts;

@@ -24,7 +24,6 @@ const AboutSection = () => {
       description: "30-day hassle-free return policy on all products."
     }
   ];
-
   return (
     <section id="about" className="py-24">
       <div className="container mx-auto px-4">

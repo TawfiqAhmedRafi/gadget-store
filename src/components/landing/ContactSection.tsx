@@ -23,7 +23,6 @@ const ContactSection = () => {
       });
     }, 1000);
   };
-
   return (
     <section id="contact" className="py-24">
       <div className="container mx-auto px-4">

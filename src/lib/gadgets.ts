@@ -142,6 +142,17 @@ export const gadgets: Gadget[] = [
     features: ["Sleep Tracking", "Heart Rate", "Activity Tracking", "7-Day Battery"],
     inStock: false,
     rating: 4.5
+  },
+  {
+    id: "13",
+    name: "Mobile Charger Pro",
+    description: "Fast wireless charging pad compatible with all Qi-enabled devices.",
+    price: 39.99,
+    image: "https://i.ibb.co.com/0jkb4LHR/images.png",
+    category: "Accessories",
+    features: ["15W Fast Charging", "Universal Compatibility", "LED Indicator", "Slim Design"],
+    inStock: true,
+    rating: 4.3
   }
 ];
 

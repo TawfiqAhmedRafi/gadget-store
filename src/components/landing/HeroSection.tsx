@@ -34,7 +34,6 @@ const HeroSection = () => {
             <p className="text-xl text-muted-foreground max-w-lg">
               Explore our curated collection of premium gadgets designed to enhance your digital lifestyle.
             </p>
-            
             <div className="flex flex-wrap gap-4">
               <Link to="/items">
                 <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-8 glow-effect">

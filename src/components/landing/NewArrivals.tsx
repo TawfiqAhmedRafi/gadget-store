@@ -36,5 +36,4 @@ const NewArrivals = () => {
     </section>
   );
 };
-
 export default NewArrivals;

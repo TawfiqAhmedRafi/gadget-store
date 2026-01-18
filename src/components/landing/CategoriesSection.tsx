@@ -49,5 +49,4 @@ const CategoriesSection = () => {
     </section>
   );
 };
-
 export default CategoriesSection;
